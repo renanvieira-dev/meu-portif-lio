@@ -1,0 +1,526 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body, html{
+    scroll-behavior: smooth;
+    margin: 0 auto;
+    background: linear-gradient(to right, #01324E, #071424);
+    overflow-x: hidden;
+    padding: 0 2%;
+}
+
+.container{
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/******* HEADER E MENU *******/
+
+header{
+    padding: 3rem 0;
+}
+
+.logo h1{
+    color: #fff;
+}
+
+.logo span{
+    color: #1ba4ff;
+}
+
+.menu-desktop ul{
+    display: flex;
+}
+
+.menu-desktop li{
+    list-style-type: none;
+    margin: 0 2rem;
+}
+
+.menu-desktop a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.1rem;
+    transition: .2s ease-in-out;
+}
+
+.menu-desktop a:hover{
+    color: #1ba4ff;
+}
+
+.menu-mobile{
+    color: #fff;
+    display: none;
+}
+
+.menu-mobile a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.fa-bars{
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.fa-xmark{
+    font-size: 2rem;
+    cursor: pointer;
+    display: none;
+}
+
+.list-menu-mobile{
+    display: none;
+}
+
+.list-menu-mobile li{
+    list-style-type: none;
+}
+
+.list-menu-mobile a{
+    text-decoration: none;
+    color: #fff;
+}
+
+/******* PRIMEIRA SESSÃO *******/
+
+.primary-section{
+    height: 80vh;
+    display: flex;
+}
+
+.information{
+    color: #fff;
+}
+
+.information p{
+    font-size: 2rem;
+}
+
+.information h1{
+    font-size:5rem;
+}
+
+.information h1 > span{
+    color: #1ba4ff;
+}
+
+.information h2{
+    font-size: 1.5rem;
+}
+
+.contact-me{
+    width: 445px;
+    margin: 1.5rem 0;
+    padding: 1rem 0;
+    font-size: 1.5rem;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+}
+
+.contact-me p{
+    color: #01324E;
+    font-weight: 400;
+}
+
+.contact-me a{
+    background: #1ba4ff;
+    padding: 0.700rem 1.2rem;
+    border-radius: 50px;
+    text-decoration: none;
+    color: #084269;
+    font-size: 1.4rem;
+}
+.image-primary-section img{
+    width: 550px;
+}
+
+/******* SEGUNDA SESSÃO *******/
+
+.second-section{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about{
+    display: flex;
+    color: #fff;
+    align-items: center;
+}
+
+.about img{
+    width: 400px;
+}
+
+.text-about h1{
+    font-size: 4rem;
+    padding: 1rem 0;
+}
+
+.text-about h2{
+    font-size: 2rem;
+}
+
+.text-about h2 > span{
+    color: #1ba4ff;
+}
+
+.text-about p{
+    font-size: 1.5rem;
+    padding: 1rem 0;
+    font-weight: 400;
+}
+
+/******* TERCEIRA SESSÃO *******/
+
+.third-section{
+    height: 100vh;
+    text-align: center;
+}
+
+.third-section h1{
+    color: #fff;
+    font-size: 3rem;
+    padding: 4rem 0;
+}
+
+.projects-box{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container-2{
+    display: flex;
+    flex-direction: column;
+}
+
+.box{
+    width: 350px;
+    height: 355px;
+    padding: 1rem;
+    border: 1px solid #fff;
+    border-radius: 1rem;
+    margin: 0.5rem 0.5rem;
+}
+
+.box img{
+    width: 315px;
+    height: 200px;
+    border-radius: 1rem;
+    padding-bottom: 0.5rem;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+}
+
+.buttons a{
+    text-decoration: none;
+    color: #fff;
+    background-color: #061822;
+    margin: 0.2rem 0;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+
+.note h1{
+    background-color: #fbff00;
+    font-size: 1.2rem;
+    color: #4a4e0b;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin: 3rem 0;
+}
+
+/******* QUARTA SESSÃO *******/
+
+.fourth-section{
+    height: 80vh;
+    margin-top: 7rem;
+    text-align: center;
+}
+
+.technologies{
+    text-align: center;
+    margin: 0 auto;
+}
+
+.technologies h1{
+    color: #fff;
+    padding: 5rem 0;
+    font-size: 3rem;
+}
+
+.stack{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.stack p{
+    color: #fff;
+    padding: 1.5rem;
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 1rem;
+    border-radius: 0.5rem;
+}
+
+.html{
+    background-color: #B45309;
+}
+
+.css{
+    background-color: #0EA5E9;
+}
+
+.bootstrap{
+    background-color: #1D4ED8;
+}
+
+.tailwind{
+    background-color: #0284C7;
+}
+
+.javascript{
+    background-color: #FACC15;
+}
+
+.jquery{
+    background-color: #0C4A6E;
+}
+
+.react{
+    background-color: #1D4ED8;
+}
+
+.git{
+    background-color: #ff5e00;
+}
+
+.github{
+    background-color: #171515;
+}
+
+footer{
+    text-align: center;
+    background-color: rgb(31, 31, 31);
+    color: #fff;
+    padding: 1rem 0;
+}
+
+footer a{
+    text-decoration: underline;
+    color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+    .container{
+        text-align: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .menu-desktop{
+        display: none;
+    }
+
+    .menu-mobile{
+        display: block;
+    }
+
+    .primary-section{
+        height: 75vh;
+        flex-direction: column;
+    }
+
+    .name-contact{
+        padding-top: 15rem;
+        z-index: 1;
+        margin-left: -22px;
+    }
+
+    .name-contact h1{
+        font-size: 4rem;
+    }
+
+    .name-contact h2{
+        font-size: 1.1rem;
+    }
+
+    .image-primary-section{
+        position: relative;
+        top: -505px !important;
+        z-index: 0;
+        left: 20px;
+        padding: 1rem;
+    }
+
+    .image-primary-section img{
+        width: 350px;
+        margin-left: -22px;
+    }
+
+    .contact-me{
+        margin: 0 auto;
+        margin-top: 25px;
+    }
+
+    .second-section{
+        height: 70vh;
+        margin-left: -22px;
+    }
+
+    .about img{
+        display: none;
+    }
+
+    .text-about h1{
+        font-size: 2rem;
+    }
+
+    .text-about h2{
+        font-size: 1.2rem;
+    }
+
+    .text-about p{
+        font-size: 1.2rem;
+        padding: 1.5rem 2rem;
+        text-align: justify;
+    }
+
+    .third-section{
+        height: auto;
+    }
+
+    .third-section h1{
+        font-size: 2rem;
+        margin-top: -50px;
+    }
+
+    .projects-box{
+        display: flex;
+        justify-content: center;
+        margin-top: -40px;
+    }
+
+    .note{
+        width: 22rem;
+        margin-top: 70px;
+    }
+
+    .note h1{
+        font-size: 0.900rem;
+    }
+
+    .fourth-section{
+        height: 70vh;
+        margin-left: -10px;
+    }
+
+    .technologies h1{
+        margin-top: -150px;
+        font-size: 2rem;
+    }
+
+    .stack{
+        flex-wrap: wrap;
+        margin-top: -50px;
+    }
+
+    .stack p{
+        font-size: 1rem;
+    }
+}
+
+@media  screen and (max-width: 450px) {
+    .primary-section{
+        height: 40vh;
+    }
+
+    .information p{
+        font-size: 1.6rem;
+    }
+
+    .information h1{
+        font-size: 3rem;
+    }
+
+    .information h2{
+        font-size: 1rem;
+    }
+
+    .name-contact{
+        margin-left: 2px;
+    }
+
+    .contact-me{
+        width: 350px;
+    }
+
+    .contact-me p{
+        font-size: 1rem;
+    }
+
+    .contact-me a{
+        font-size: 1rem;
+    }
+
+    .image-primary-section img{
+        margin-top: 26px;
+    }
+
+    .second-section{
+        height: 65vh;
+    }
+
+    .text-about{
+        margin-left: 15px;
+    }
+
+    .text-about h1{
+        margin-top: 100px;
+        font-size: 1.6rem;
+    }
+
+    .text-about h2{
+        font-size: 1.1rem;
+    }
+
+    .third-section h1{
+        margin-top: -100px;
+    }
+
+    .note{
+        margin-top: 120px;
+    }
+
+    .fourth-section{
+        height: 110vh;
+    }
+
+    .stack{
+        flex-direction: column;
+    }
+
+    .stack p{
+        font-size: 1.6rem;
+    }
+}
