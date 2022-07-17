@@ -596,6 +596,90 @@ footer a{
     }
 }
 
+@media screen and (max-width: 375px){
+    .primary-section{
+        height: 48vh;
+    }
+
+    .information p{
+        font-size: 1.6rem;
+    }
+
+    .information h1{
+        font-size: 3rem;
+    }
+
+    .information h2{
+        font-size: 0.850rem;
+    }
+
+    .contact-me{
+        width: 320px;
+    }
+    .contact-me p{
+        font-size: 1rem;
+    }
+
+    .contact-me a{
+        font-size: 1rem;
+    }
+
+    .image-primary-section img{
+        margin-top: 26px;
+    }
+
+    .second-section{
+        height: 100vh;
+    }
+
+    .text-about{
+        margin-left: 15px;
+    }
+
+    .text-about h1{
+        margin-top: 100px;
+        font-size: 1.6rem;
+    }
+
+    .text-about h2{
+        font-size: 0.950rem;
+    }
+
+    .third-section h1{
+        margin-top: -60px;
+    }
+
+    .box{
+        width: 300px;
+    }
+
+    .box img{
+        width: 270px;
+    }
+
+    .note{
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .note h1{
+        font-size: .750rem;
+        margin: 0 1rem;
+    }
+
+    .fourth-section{
+        height: 120vh;
+    }
+
+    .stack{
+        flex-direction: column;
+    }
+
+    .stack p{
+        font-size: 1.6rem;
+    } 
+}
+
 @media screen and (max-width: 360px){
     .primary-section{
         height: 38vh;
@@ -668,7 +752,7 @@ footer a{
     }
 
     .fourth-section{
-        height: 120vh;
+        height: 140vh;
     }
 
     .stack{
